@@ -1,6 +1,6 @@
 # Statistical Natural Language Processing project
 
-
+Movies recommendation solutions with solely content-based filtering approaches
 
 ## Setup
 
@@ -22,10 +22,14 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-<!-- 4. (Optional for VSCode users) Install ipykernel -->
-
-## Structure of project
-
-
 ## Experiments
 
+- Word-embeddings
+
+    - [CBOW architecture](./w2v_cbow.ipynb)
+
+    - [Skip-gram architecture](./w2v_skip_gram.ipynb)
+
+- Keywords
+
+    - [TF-IDF](./tf-idf/)
